@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import {useEffect, useState} from 'react';
 import {db} from "../firebase";
 
 export default function useCollection(path, orderBy) {
@@ -17,7 +17,7 @@ export default function useCollection(path, orderBy) {
             })
             setDocs(newDocs)
         })
-    }, [])
+    }, [path, orderBy])
 
     return docs
 }

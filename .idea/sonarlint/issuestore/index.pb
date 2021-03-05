@@ -2,19 +2,11 @@
 9
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 ;
-src/App.css,a/a/aa7165aefcf8ee3d73539e99ab007daf1aa18d8d
-;
 .firebaserc,3/6/368d8a929a4bff0376a597a4de99b28a56e8efc3
 D
 functions/.gitignore,2/6/263494bdfba38b73945e920bc0d8bb44dd62745d
 =
 src/index.css,c/5/c5d38a62d1faae90a2acaa34b79a7ef365c917e4
-?
-src/App.test.js,9/2/923703ced91ac38943d37930d9d27a7ebe8f01ad
-<
-src/logo.svg,6/d/6d3a8cd532ece5b4ddbd4b3b6a678ba686d300bc
-A
-src/setupTests.js,b/7/b7e8d8f421068b8d51c89805d2035e747be2ff17
 <
 src/index.js,f/9/f900edc44cb929c2267a16100a32851f6d5b477d
 B
@@ -34,3 +26,24 @@ F
 :
 
 src/App.js,1/e/1e43fa63aecd2127be034b3fb9d4caa172275714
+B
+src/ChannelInfo.js,b/b/bb664f949dd564ac04a4abe088907fcec5c0285d
+D
+src/useCollection.js,3/9/399dba190070f65f7d9dbc865ce4262278e069e1
+J
+src/hooks/useCollection.js,e/4/e4899df4a2875ef24fccb95e2e98179d17372138
+C
+src/ChatInputBox.js,d/6/d6776172e5970e19a73b7358b1fb36e739ab5519
+?
+src/Messages.js,b/1/b1720d8b5bcea2c72f05f6fa3d9df5f9c7d8d806
+>
+src/Channel.js,8/2/82a111f6d299f7352a9645813f69d8774342f3a4
+>
+src/Members.js,9/1/91158f4de0e7a68ed8b2b4761d37f62280522f03
+?
+src/firebase.js,b/d/bdd7fdef5d5068575555e16ddbe2adbac4843a75
+D
+src/hooks/useAuth.js,6/1/61a39fca19ec320593f100eb70ab31a903f86f34
+:
+
+src/Nav.js,1/b/1b5d32517fdb271aaff1a0364ef4ed5cf75d835f

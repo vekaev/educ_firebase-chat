@@ -1,8 +1,8 @@
 import React from 'react';
 import Nav from './Nav';
 import Channel from './Channel';
-
-import {useAuth} from "./hooks/useAuth";
+import { useAuth } from './hooks/useAuth';
+import { Router, Redirect } from '@reach/router';
 
 function App() {
     const { user, authError, handleSignIn, handleSignOut } = useAuth();
@@ -12,7 +12,10 @@ function App() {
     return user ? (
         <div className="App">
             <Nav user={user} handleSignOut={handleSignOut}/>
-            <Channel/>
+            <Router>
+                <Channel path="channel/:channelId" user={user}/>
+                <Redirect from="/" to="channel/general" noThrow/>
+            </Router>
         </div>
     ) : (
         <div className="Login">
