@@ -2,6 +2,7 @@ import React from 'react';
 import useCollection from './hooks/useCollection'
 import useDoc from "./hooks/useDoc";
 import formatDate from 'date-fns/format'
+
 function Messages({channelId}) {
     const messages = useCollection(`channels/${channelId}/messages`, 'createdAt');
 
