@@ -4196,10 +4196,10 @@ data-urls@^2.0.0:
     whatwg-mimetype "^2.3.0"
     whatwg-url "^8.0.0"
 
-date-fns@^2.19.0:
-  version "2.19.0"
-  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.19.0.tgz#65193348635a28d5d916c43ec7ce6fbd145059e1"
-  integrity sha512-X3bf2iTPgCAQp9wvjOQytnf5vO5rESYRXlPIVcgSbtT5OTScPcsf9eZU+B/YIkKAtYr5WeCii58BgATrNitlWg==
+date-fns@1.3.13:
+  version "1.13.0"
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-1.13.0.tgz#e69a387067bdbb5a923184866ba1b699715d2b95"
+  integrity sha1-5po4cGe9u1qSMYSGa6G2mXFdK5U=
 
 debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.0, debug@^2.6.9:
   version "2.6.9"

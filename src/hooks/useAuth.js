@@ -1,5 +1,5 @@
 import {useState, useEffect} from 'react';
-import {db, firebase} from "../firebase";
+import {db, firebase, setupPresence} from "../firebase";
 
 export function useAuth() {
     const [user, setUser] = useState('loading')
@@ -17,6 +17,7 @@ export function useAuth() {
                 db.collection('users')
                     .doc(user.uid)
                     .set(user, {merge: true})
+                setupPresence(user)
             } else {
                 setUser(null)
             }
