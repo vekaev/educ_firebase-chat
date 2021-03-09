@@ -51,3 +51,16 @@ X
 (build/static/css/main.22127c55.chunk.css,b/3/b3456cf36e3b1ccaf269c7bddc4072ef30e54fec
 C
 src/hooks/useDoc.js,4/4/44a8d449eaf93fb53c4bd48ca6fa8805c3938ee8
+9
+	yarn.lock,5/3/53585a096fe3a3b96321113856ae62602995a33b
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+L
+src/hooks/useDocWithCache.js,2/9/29adad628570abd8c8d26a8f312e350c57d88fcd
+<
+package.json,7/0/7030d0b2f71b999ff89a343de08c414af32fc93a
+C
+functions/yarn.lock,8/9/89b08e70d9b5f13e9121a1f732cd256471c71261
+F
+functions/ui-debug.log,9/2/9221314fa7e0b932dd52dd22c8d1c4380111ec7f
